@@ -75,7 +75,7 @@ class Header extends React.Component {
                         FA
                     </span>
                     <div className={'mynavbar-collapsible flex-container ' + (this.state.navbarCollapse? 'menu-active': '') } >
-                        <span><Link className="nav-link" to="/">Home</Link></span>
+                        <span><Link className="nav-link" to="/home">Home</Link></span>
                         <span><Link className="nav-link" to="/Portofolio">Work</Link></span>    
                         <span><Link className="nav-link" to="/Blog">Blog</Link></span>
                     </div>
