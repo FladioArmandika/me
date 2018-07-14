@@ -13,7 +13,7 @@ class HomePage extends React.Component {
                         Full Stack Developer
                     </span>
                     <button className='btn btn-sm btn-primary mt-2'>
-                        Say Hello
+                        Say Hello!
                     </button>
                 </div>
             </div>
