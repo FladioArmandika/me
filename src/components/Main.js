@@ -24,8 +24,8 @@ class Main extends React.Component {
                             classNames={'fade'}
                         >
                             <Switch>
-                                <Route exact path='/' component={Home}/>
-                                <Route exact path='/Home' component={Home}/>
+                                <Route exact path='/me' component={Home}/>
+                                <Route exact path='/me' component={Home}/>
                                 <Route path='/blog' component={Blog} />
                                 <Route path='/portofolio' component={Portofolio} />
                                 <Route path='/contact' component={Contact} />
