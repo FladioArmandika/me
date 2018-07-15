@@ -64,12 +64,12 @@ class Header extends React.Component {
            
             <nav className='mynavbar' style={this.state.isTop? this.navbarBgTransparent : this.navbarBgWhite }>
                 <div className="mynavbar-container container" style={this.state.isTop? this.navbarBgTransparent : this.navbarBgWhite }>
-                    <span className='mynavbar-brand mr-auto' style={this.state.isTop? this.navbarNotScrolled : this.navbarScrolled}>
-                        FA
-                    </span>
+                    <div className='mynavbar-brand mr-auto' style={this.state.isTop? this.navbarNotScrolled : this.navbarScrolled}>
+                        &#123;FA&#125;
+                    </div>
                     <div className='mynavbar-collapsible flex-container'  >
-                        <span><Link className="nav-link" to="/home">Home</Link></span>
-                        <span><Link className="nav-link" to="/Portofolio">Work</Link></span>    
+                        <span><Link className="nav-link" to="/me">Home</Link></span>
+                        <span><Link className="nav-link" to="/portofolio">Work</Link></span>    
                         <span><Link className="nav-link" to="/Blog">Blog</Link></span>
                     </div>
                     {/* <span className='fa fa-bars menu-toggle' onClick={this.handleMenuClick.bind(this)} ></span> */}
