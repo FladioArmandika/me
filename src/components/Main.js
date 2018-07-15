@@ -1,5 +1,5 @@
 import React from 'react'
-import {Switch, Route} from 'react-router-dom'
+import {Switch, Route, Redirect} from 'react-router-dom'
 import {TransitionGroup, CSSTransition} from 'react-transition-group'
 
 import Home from './pages/HomePage';
@@ -24,7 +24,8 @@ class Main extends React.Component {
                             classNames={'fade'}
                         >
                             <Switch>
-                                <Route exact path='/home' component={Home}  />
+                                <Route exact path='/' component={Home}/>
+                                <Route exact path='/Home' component={Home}/>
                                 <Route path='/blog' component={Blog} />
                                 <Route path='/portofolio' component={Portofolio} />
                                 <Route path='/contact' component={Contact} />
